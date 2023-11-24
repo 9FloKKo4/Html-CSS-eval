@@ -1,0 +1,130 @@
+  /*header 1*/
+
+.Header1 {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 0px;
+    margin: 0px; 
+    display: flex;
+    justify-content: center; 
+    padding: 12px;
+    flex-direction: row;
+  }
+  
+  .Header1 a {
+    text-decoration: underline;
+    color: black; 
+  }
+
+
+    /*header 2*/
+
+
+  .header2  {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: white;
+    padding: 15px 0;
+    flex-direction: row;
+    border-top: 1px #ccc solid;
+    border-bottom: 1px #ccc solid ;
+  }
+
+.header2 .navigation {
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-shadow: 1px 1px 2px;
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+    background-color: white;
+    padding: 0px;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.boutonheader1 {
+    border-right: 1px solid #ccc; 
+    padding-right: 10px;
+    margin-right: 0px;
+    margin-left: 10px;
+
+} 
+
+.recherche {
+    display: flex; 
+    align-items: center;
+  }
+
+.header2 .btn1{
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.header2 .btn1 img {
+    margin: 10px;
+    padding-bottom: 5px;
+}
+
+
+  
+    
+  
+
+
+
+
+ 
+ 
+ /*header 3*/
+
+ .header3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    justify-items: flex-start; 
+    background-color: white;
+    padding: 20px;
+    flex-direction: row;
+  }
+
+  .header3 nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0;
+  }
+  
+  .header3 nav h5 {
+    margin: 0;
+    text-align: center;
+  }
+
+  
+  .header3 nav img {
+    display: block;
+    margin: 0 auto 5px;
+  }
+
+  .header3 .filtre .btn2{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+  
+
+
+ 
+
+ 
+  
+
+  
+  
+  

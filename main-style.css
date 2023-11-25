@@ -1,0 +1,131 @@
+.photos {
+    display: grid;
+  
+  grid-template-columns: auto auto auto auto;
+    flex-wrap: wrap; 
+    gap: 20px;
+    padding: 30px;
+}
+
+
+
+article .art-img1 {
+    background-image: url("main-images/appart1.png");
+    border-radius: 20px;
+    width: 100%; 
+    height: 290px;
+    background-size: cover; /* Utilise 'contain' au lieu de 'cover' */
+    background-position: center; /* Centre l'image dans le conteneur */
+    background-repeat: no-repeat;
+    position: relative; 
+}
+
+.info-section{
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 10px;
+}
+
+.info-section .etoile-note {
+    text-align: right;
+    gap: 10px;
+    margin-top: 19px;
+    display: flex;
+}
+
+.info-section .etoile {
+    position: absolute;
+   
+}
+
+
+
+
+
+article  img {
+    position: absolute;
+    top: 20px; 
+    right: 20px; 
+}
+
+.localisation{
+    line-height: 1.5;
+}
+
+article .art-img2 {
+    background-image: url("main-images/airbnb.png");
+    border-radius: 20px;
+    width: 100%; 
+    height: 290px;
+    background-size: cover; /* Utilise 'contain' au lieu de 'cover' */
+    background-position: center; /* Centre l'image dans le conteneur */
+    background-repeat: no-repeat;
+    position: relative; 
+}
+
+article .art-img3 {
+    background-image: url("main-images/Redbhert.png");
+    border-radius: 20px;
+    width: 100%; 
+    height: 290px;
+    background-size: cover; /* Utilise 'contain' au lieu de 'cover' */
+    background-position: center; /* Centre l'image dans le conteneur */
+    background-repeat: no-repeat;
+    position: relative; 
+}
+
+article .art-img4 {
+    background-image: url("main-images/harlingen.png");
+    border-radius: 20px;
+    width: 100%; 
+    height: 290px;
+    background-size: cover; /* Utilise 'contain' au lieu de 'cover' */
+    background-position: center; /* Centre l'image dans le conteneur */
+    background-repeat: no-repeat;
+    position: relative; 
+}
+
+
+article .art-img5 {
+    background-image: url("main-images/amsterdam.png");
+    border-radius: 20px;
+    width: 100%; 
+    height: 290px;
+    background-size: cover; /* Utilise 'contain' au lieu de 'cover' */
+    background-position: center; /* Centre l'image dans le conteneur */
+    background-repeat: no-repeat;
+    position: relative; 
+}
+
+article .art-img6 {
+    background-image: url("main-images/Tervuren.png");
+    border-radius: 20px;
+    width: 100%; 
+    height: 290px;
+    background-size: cover; /* Utilise 'contain' au lieu de 'cover' */
+    background-position: center; /* Centre l'image dans le conteneur */
+    background-repeat: no-repeat;
+    position: relative; 
+}
+
+article .art-img7 {
+    background-image: url("main-images/sutton.png");
+    border-radius: 20px;
+    width: 100%; 
+    height: 290px;
+    background-size: cover; /* Utilise 'contain' au lieu de 'cover' */
+    background-position: center; /* Centre l'image dans le conteneur */
+    background-repeat: no-repeat;
+    position: relative; 
+}
+
+article .art-img8 {
+    background-image: url("main-images/caylus.png");
+    border-radius: 20px;
+    width: 100%; 
+    height: 290px;
+    background-size: cover; /* Utilise 'contain' au lieu de 'cover' */
+    background-position: center; /* Centre l'image dans le conteneur */
+    background-repeat: no-repeat;
+    position: relative; 
+}

@@ -1,4 +1,6 @@
-  /*header 1*/
+
+ 
+ /*header 1*/
 
 .Header1 {
     background-color: #f0f0f0;
@@ -89,20 +91,35 @@
     background-color: white;
     padding: 20px;
     flex-direction: row;
+    gap: 30px;
   }
 
-  .header3 nav {
+  .header3 nav ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 20px;
     padding: 0px;
     margin: 0;
+    
+  }
+
+  .header3 ul li a {
+    color: grey;
+  }
+
+  .header3 ul li a:hover {
+    color: black;
+    text-decoration: underline;
   }
   
   .header3 nav h5 {
     margin: 0;
     text-align: center;
+    
   }
+
+  
 
   
   .header3 nav img {
